@@ -28,9 +28,9 @@ urlpatterns = [
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="My API",
+      title="Wordle API",
       default_version='v1',
-      description="Test description",
+      description="Advanced Wordle gameplay, auth, leaderboards, and effects.",
    ),
    public=True,
    permission_classes=(permissions.AllowAny,),
